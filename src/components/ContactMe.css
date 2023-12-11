@@ -1,0 +1,25 @@
+.MainContactMeComponent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -80px;
+}
+
+.ContactMeHeading h1 {
+  display: flex;
+  font-weight: 200;
+  font-size: 45px;
+  background: linear-gradient(90deg, #fc00ff, #00dbde);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.icons a {
+  color: white;
+}

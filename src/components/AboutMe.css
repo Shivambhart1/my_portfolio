@@ -1,0 +1,26 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  position: relative;
+  top: -70px;
+}
+
+.aboutMeHeading h1 {
+  font-weight: 100;
+  font-size: 40px;
+  padding-left: 20px;
+  background: linear-gradient(90deg, #fc00ff, #00dbde);
+}
+
+.aboutMeDescription {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeDescription p {
+  font-weight: 100;
+  font-size: 26px;
+  line-break: auto;
+  line-height: 40px;
+}
