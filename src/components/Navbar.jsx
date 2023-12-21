@@ -1,9 +1,10 @@
-import "./Navbar.css";
+import "./CSS_Files/Navbar.css";
 import Button from "./Button";
 import AboutMe from "./AboutMe";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import ProjectCardComponent from "./ProjectCardPage";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -29,15 +30,19 @@ const Navbar = () => {
 
       <ul className={clicked ? "nav-menu-active" : "nav-menu-mobile"}>
         <li>
+          <Link to="/">HOME</Link>
+        </li>
+        <li>
           <Link to="/about">
             <a href={<AboutMe />}>ABOUT ME</a>
           </Link>
         </li>
         <li>
           <Link to="/projects">
-            <a href="">PROJECTS</a>
+            <a href={<ProjectCardComponent />}>PROJECTS</a>
           </Link>
         </li>
+
         <Link to="contactMe">
           <div className="menu-button">
             <Button

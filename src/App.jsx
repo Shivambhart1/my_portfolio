@@ -5,6 +5,8 @@ import HeroContent from "./components/HeroContent";
 import AboutMe from "./components/AboutMe";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ContactMe from "./components/ContactMe";
+import ProjectCardComponent from "./components/ProjectCardPage";
+import ProjectCardPage from "./components/ProjectCardPage";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
             </Routes>
             <Routes>
               <Route path="/contactMe" Component={ContactMe}></Route>
+            </Routes>
+            <Routes>
+              <Route path="/projects" Component={ProjectCardPage} />
             </Routes>
           </div>
         </section>

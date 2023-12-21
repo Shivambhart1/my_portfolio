@@ -13,6 +13,7 @@ const Button = ({
   backgroundColor,
   backgroundImage,
   color,
+  letterSpacing,
 }) => {
   return (
     <JSXButton
@@ -23,6 +24,7 @@ const Button = ({
         border: `${border}`,
         backgroundColor: `${backgroundColor}`,
         backgroundImage: `${backgroundImage}`,
+        letterSpacing: `${letterSpacing}`,
       }}
     >
       {text}

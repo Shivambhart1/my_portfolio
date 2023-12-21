@@ -1,6 +1,4 @@
-import "./AboutMe.css";
-
-const myDescription = "Hello there! This is Shivam Bharti";
+import "./CSS_Files/AboutMe.css";
 
 const AboutMe = () => {
   return (
